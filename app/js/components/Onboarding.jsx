@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import StationContainer from './StationContainer';
+import StationContainer from '../containers/StationContainer';
 
 class Onboarding extends React.Component {
   constructor() {

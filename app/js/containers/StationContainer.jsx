@@ -2,9 +2,9 @@ import Hammer from 'hammerjs';
 import React from 'react';
 import moment from 'moment';
 
-import { buildRequestOptions } from './../util';
-import Loading from './Loading';
-import StationCard from './StationCard';
+import { buildRequestOptions } from '../util';
+import Loading from '../components/Loading';
+import StationCard from '../components/StationCard';
 
 const baseUrl = 'https://vbb.transport.rest';
 const maxNumStations = 50; // FIXME: Looks like the cap is at 35
